@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import NFTPreview from './components/nft-preview.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <NFTPreview img="./images/image-equilibrium.jpg"
+        alt="nft-preview"
+        title="Equilibrium #3429"
+        desc="Our Equilibrium collection promotes balance and calm."
+        price="0.041 ETH"
+        time="3 days left"
+        icon="./images/image-avatar.png"
+        altIcon="artist-avatar"
+        artistName="Jules Wyvern"
+        />
   );
 }
 

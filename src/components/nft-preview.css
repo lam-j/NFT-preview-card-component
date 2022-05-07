@@ -1,0 +1,98 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+}
+
+hr {
+    background-color: hsl(215, 51%, 70%);
+    border-style: solid;
+    height: 0.2px;
+    width: 85%;
+    opacity: 10%;
+}
+
+h2, a {
+    color: white;
+}
+h4 {
+    color: hsl(178, 100%, 50%);
+}
+p {
+    font-size: 16px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.nft-preview {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    font-family: 'Outfit', sans-serif;
+    height: 600px;
+    width: 350px;
+    text-align: center;
+}
+
+.nft-preview img {
+    border-radius: 10px;
+    margin-top: 25px;
+    height: 50%;
+    width: 85%;
+}
+
+.nft-preview-description {
+    margin: auto;
+    height: 100px;
+    width: 85%;
+    text-align: left;
+}
+.nft-preview-description p {
+    font-size: 18px;
+}
+
+.nft-preview-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 85%;
+}
+.nft-preview-details img {
+    height: 18px;
+    width: auto;
+    margin-right: 8px;
+}
+.nft-preview-price {
+    display: flex;
+    align-items: flex-center;
+}
+.nft-preview-time {
+    display: flex;
+    align-items: flex-center;
+}
+.time-icon {
+    position: relative;
+    bottom: 7px;
+}
+
+.nft-preview-artist {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 85%;
+    position: relative;
+    bottom: 5px;
+}
+.nft-preview-artist img {
+    border: 1px solid white;
+    border-radius: 100%;
+    margin-right: 15px;
+    height: 35px;
+    width: auto;
+    position: relative;
+    bottom: 12px;
+}
