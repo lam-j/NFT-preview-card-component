@@ -4,7 +4,10 @@ import './nft-preview.css';
 export default function NFTPreview(props) {
     return (
         <div className="nft-preview center">
-            <img src={props.img} alt={props.alt}/>
+                <img src={props.img} alt={props.alt}/>
+                <div className="image-overlay center">
+                    <img src="../images/icon-view.svg" alt="view-icon"/>
+                </div>
             <div className="nft-preview-description">
                 <h2>{props.title}</h2>
                 <p>{props.desc}</p>

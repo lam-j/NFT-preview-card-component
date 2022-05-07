@@ -1,4 +1,3 @@
-import './App.css';
 import NFTPreview from './components/nft-preview.jsx';
 
 function App() {
